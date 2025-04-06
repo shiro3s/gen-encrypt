@@ -1,0 +1,21 @@
+{
+  "name": "gen-encrypt",
+  "version": "1.0.0",
+  "bin": {
+    "gen-encrypt": "./bin/index.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "lint": "biome lint ./cli",
+    "lint:fix": "biome check --write ./cli"
+  },
+  "dependencies": {
+    "commander": "^13.1.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.14.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
+  }
+}

@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "esnext",
+		"strict": true,
+		"importHelpers": true,
+		"moduleResolution": "bundler",
+		"skipDefaultLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"sourceMap": true,
+		"lib": ["esnext", "ScriptHost"]
+	},
+	"exclude": ["node_modules"]
+}
